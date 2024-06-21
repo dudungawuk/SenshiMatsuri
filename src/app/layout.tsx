@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   keywords:
     "event, agency, festival, japan, japanese, culture, food, music, dance, art, performance, entertainment, fun, family, friends, community, celebration, tradition, history",
   openGraph: {
-    title: "Akita Japan Fest",
+    title: "Senshi No Matsuri",
     description: "Let's make the best japanese festival in the world!",
-    siteName: "Akita Japan Fest",
+    siteName: "Senshi No Matsuri",
     type: "website",
   },
 };

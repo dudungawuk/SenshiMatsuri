@@ -24,99 +24,64 @@ export const NAVBAR = [
 export const SOCIAL_MEDIA = [
   {
     icon: "Instagram",
-    name: "@akitajapanfest",
-    href: "https://www.instagram.com/akitajapanfest/",
+    name: "@senshimatsuri.pwt",
+    href: "https://www.instagram.com/senshimatsuri.pwt/",
   },
   {
     icon: "Facebook",
-    name: "Akita Japan Fest",
-    href: "https://www.facebook.com/profile.php?id=61553946205688",
+    name: "Senshi Matsuri",
+    href: "https://www.facebook.com/senshimatsuri.pwt/",
   },
 ];
+
 export const CONTACT = [
   {
     icon: "Phone",
-    name: "+62 882-0053-59995",
-    href: "https://wa.me/62882005359995",
+    name: "+62 882-0064-27803",
+    href: "https://wa.me/62882006427803",
   },
   {
     icon: "Mail",
     name: "Mail Us",
-    href: "https://www.tiktok.com/@akitajapanfestival",
+    href: "",
   },
 ];
 
 export const CLIENTS = [
   {
     message:
-      "Fantastic event! Great atmosphere with authentic Japanese performances and activities.",
+      "Semoga dilain waktu bisa kesini lagi!Arigatooouuu! Senshi Matsuri Pecahhhh!!!",
     profile: {
-      name: "Mochamad Syahrul Akbar",
-      position: "CTO Akita Japan Fest",
-      image: "/images/profile/akbar.jpeg",
+      name: "Xeimi",
+      position: "Guest Star Cosplayer Senshi no Matsuri",
+      image: "/images/profile/xeimi.png",
     },
   },
   {
-    message: "Fun and impressive! Lots of engaging Japanese cultural activities.",
+    message: "Ahooyyyy AKHIRNYA BISA MENG OTSUKAREEEE!! suaranya ada yang crack saat lagu ke 5 dan langsung trobos tanpa jeda",
     profile: {
-      name: "Muhammad Fikri Nabil Assyawali",
-      position: "Founder Akita Japan Fest",
+      name: "Mayaya",
+      position: "Singer and Japan Song Judge Senshi No Matsuri",
       image:
-        "https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "/images/profile/mayaya.png",
     },
   },
   {
-    message: "Akita Japan Fest was amazing! Best cosplay and Japanese food!",
+    message: "Terimakasih yang sudah meramaikan Event Senshi No Matsuri,Kami senang sekali bertemu dengan kalian kembali",
     profile: {
-      name: "Pambayun Ginanjar",
-      position: "Founder Akita Japan Fest",
+      name: "SRT 48",
+      position: "Dance Performer Senshi No Matsuri",
       image:
-        "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "/images/profile/srt48.png",
     },
   },
   {
-    message: "Perfect festival for Japan enthusiasts. Highly recommended!",
+    message: "Otsukareeee Senshi Matsuri! Kereennn Acaranya, pecah bangett! Harus ada tiap taun lhooo yaaaaa!",
     profile: {
-      name: "Avanto Surya Wijaya",
-      position: "Founder Akita Japan Fest",
+      name: "Mochi Ramen",
+      position: "Dance Performer Senshi No Matsuri",
       image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80",
-    },
-  },
-  {
-    message: "Perfect festival for Japan enthusiasts. Highly recommended!",
-    profile: {
-      name: "March Oktavionda",
-      position: "Founder Akita Japan Fest",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80",
-    },
-  },
-  {
-    message: "Perfect festival for Japan enthusiasts. Highly recommended!",
-    profile: {
-      name: "Fandi Aditya",
-      position: "Founder Akita Japan Fest",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80",
-    },
-  },
-  {
-    message: "Perfect festival for Japan enthusiasts. Highly recommended!",
-    profile: {
-      name: "Yohan",
-      position: "Founder Akita Japan Fest",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80",
-    },
-  },
-  {
-    message: "Perfect festival for Japan enthusiasts. Highly recommended!",
-    profile: {
-      name: "Elvin",
-      position: "Founder Akita Japan Fest",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80",
+        "/images/profile/mochiramen.png",
     },
   },
 ];
@@ -124,22 +89,22 @@ export const CLIENTS = [
 export const DATA = [
   {
     icon: "UserRound",
-    total: 1500,
+    total: 3000,
     title: "Total Visitors",
   },
   {
     icon: "UsersRound",
-    total: 22,
+    total: 20,
     title: "Total Comunities",
   },
   {
     icon: "Home",
-    total: 2,
-    title: "Connected Venues",
+    total: 30,
+    title: "Total Tenants",
   },
   {
     icon: "CalendarCheck",
-    total: 2,
+    total: 4,
     title: "Successful Events",
   },
 ];

@@ -8,11 +8,11 @@ export default function Gallery() {
     >
       <div className=" flex flex-col gap-3 items-center  ">
         <div>
-          <p className="text-sky-500 bg-sky-100 rounded-full inline-block px-5 py-1">Content</p>
+          <p className="text-white bg-black rounded-full inline-block px-5 py-1">Content</p>
         </div>
         <h2 className="font-bold text-4xl">Our Gallery</h2>
         <p className="text-center">
-          The excitement of visitors at the Akita Japan Festival Vol 1 and Vol 1.5 events
+          The excitement of visitors at the Senshi No Matsuri
         </p>
       </div>
       <TabsGallery />

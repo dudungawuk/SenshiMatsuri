@@ -69,7 +69,7 @@ export default function Ticket({ event }: { event: EventsTable }) {
                 </div>
               </div>
               <div className="flex items-center justify-between w-full gap-x-2 mt-4">
-                <span className="bg-gradient-to-tr from-sky-500 to-sky-100 gradient-silver text-white px-2.5 py-1.5 rounded-full text-xs sm:text-sm !leading-none line-clamp-1 font-semibold tracking-tight h-full flex items-center justify-center">
+                <span className="bg-gradient-to-tr from-yellow-400 to-yellow-100 gradient-silver text-white px-2.5 py-1.5 rounded-full text-xs sm:text-sm !leading-none line-clamp-1 font-semibold tracking-tight h-full flex items-center justify-center">
                   One-day pass
                 </span>
                 <span className="flex items-center gap-x-1.5 text-xs sm:text-sm tracking-tight line-clamp-1 px-2.5 py-1.5 rounded-full bg-gray-100 text-black dark:bg-gray-900 dark:text-white h-full">
@@ -102,7 +102,7 @@ export default function Ticket({ event }: { event: EventsTable }) {
                     query: { ticketName: event_name },
                   }}
                   rel="noopener noreferrer"
-                  className="px-4 py-3 sm:py-3.5 rounded-2xl text-white font-semibold tracking-tight transition active:scale-95 flex items-center gap-x-1 bg-blue-600 hover:bg-blue-700"
+                  className="px-4 py-3 sm:py-3.5 rounded-2xl text-white font-semibold tracking-tight transition active:scale-95 flex items-center gap-x-1 bg-[#921313] hover:bg-[#921313]"
                 >
                   <span>Get ticket</span>
                 </Link>

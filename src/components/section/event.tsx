@@ -21,7 +21,7 @@ export default async function Event({
       fee: "Rp 25.000",
       prize: "Rp 450.000",
       registration: "https://wa.me/+6281548962893",
-      image: "/images/akita-1/akita-2.8.JPG",
+      image: "/images/2022/2022-7.JPG",
     },
     {
       name: "Henshin Challenge",
@@ -29,7 +29,7 @@ export default async function Event({
       fee: "Rp 25.000",
       prize: "Rp 550.000",
       registration: "https://wa.me/+6281548962893",
-      image: "/images/akita-1/akita-1.15.JPG",
+      image: "/images/2023/2023-6.JPG",
     },
     {
       name: "J-SONG Cover",
@@ -37,7 +37,7 @@ export default async function Event({
       fee: "Rp 25.000",
       prize: "Rp 550.000",
       registration: "https://wa.me/+6281548962893",
-      image: "/images/akita-1/akita-1.11.JPG",
+      image: "/images/2022/J-Song.png",
     },
     {
       name: "Cosplay Competition",
@@ -45,7 +45,7 @@ export default async function Event({
       fee: "Rp 25.000",
       prize: "Rp 550.000",
       registration: "https://wa.me/+6281548962893",
-      image: "/images/akita-1/akita-2.13.JPG",
+      image: "/images/2023/2023-8.JPG",
     },
   ];
 
@@ -56,7 +56,7 @@ export default async function Event({
     >
       <div className=" flex flex-col gap-3 items-center justify-center">
         <div>
-          <p className="text-sky-500 bg-sky-100 rounded-full inline-block px-5 py-1">Event</p>
+          <p className=" text-white  bg-black rounded-full inline-block px-5 py-1">Event</p>
         </div>
         <h2 className="font-bold text-4xl">Upcoming Event</h2>
         <p className="text-center">{"Let's Have Fun With Us!"}</p>
@@ -73,9 +73,9 @@ export default async function Event({
         </div>
         <div className="flex flex-col lg:flex-row gap-2 items-center">
           <div className="w-full lg:w-1/2 flex flex-col gap-1 items-center justify-center">
-            <div className="relative  group hover:border-sky-500 border  rounded-md text-center  px-3 py-10">
+            <div className="relative  group hover:border-black border  rounded-md text-center  px-3 py-10">
               <div className="absolute -top-3 w-full">
-                <p className="  bg-sky-100 group-hover:bg-sky-500 group-hover:text-white text-sky-500 uppercase text-sm text-center transition-all ease-in-out duration-300 rounded-full  inline-block px-3 py-1">
+                <p className="  text-white  bg-black group-hover:bg-black group-hover:text-white uppercase text-sm text-center transition-all ease-in-out duration-300 rounded-full  inline-block px-3 py-1">
                   Ticket
                 </p>
               </div>
@@ -110,18 +110,18 @@ export default async function Event({
             } gap-2 items-center`}
           >
             <div className=" w-full lg:w-1/2 flex flex-col gap-1 items-center justify-center">
-              <div className="relative text-sky-500 group hover:border-sky-500 border  rounded-md text-center  px-3 py-10 flex flex-col gap-1 items-center">
+              <div className="relative text-black group hover:border-black dark:hover:border-white border  rounded-md text-center  px-3 py-10 flex flex-col gap-1 items-center">
                 <div className="absolute -top-3 w-full">
-                  <p className="  bg-sky-100 group-hover:bg-sky-500 group-hover:text-white text-sky-500 uppercase text-sm text-center transition-all ease-in-out duration-300 rounded-full  inline-block px-3 py-1">
+                  <p className="  bg-black dark:bg-white dark:text-black text-white uppercase text-sm text-center transition-all ease-in-out duration-300 rounded-full  inline-block px-3 py-1">
                     Competition
                   </p>
                 </div>
-                <h3 className="uppercase font-bold text-4xl ">{item.name}</h3>
+                <h3 className="uppercase font-bold dark:text-white text-4xl ">{item.name}</h3>
                 <p className=" text-sm font-light text-black dark:text-white">{`Quota: ${item.quota} | Fee: ${item.fee}`}</p>
                 <p className="  text-black dark:text-white font-semibold text-lg">{`Prize Total: ${item.prize}`}</p>
                 <Link
                   href={item.registration}
-                  className="border border-sky-500 group-hover:border-sky-100 rounded-md group-hover:bg-sky-500 group-hover:text-white   p-2 my-2"
+                  className="border rounded-md bg-[#921313] dark:bg-[#921313 ] text-white   p-2 my-2"
                 >
                   Registration Here
                 </Link>
@@ -143,9 +143,9 @@ export default async function Event({
 
         <div className="flex flex-col lg:flex-row-reverse gap-2 items-center">
           <div className="w-full lg:w-1/2 flex flex-col gap-1 items-center justify-center">
-            <div className="relative text-sky-500 group hover:border-sky-500 border  rounded-md text-center  px-3 py-10">
+            <div className="relative text-[#921313] group hover:border-[#FEE774] border  rounded-md text-center  px-3 py-10">
               <div className="absolute -top-3 w-full">
-                <p className="  bg-sky-100 group-hover:bg-sky-500 group-hover:text-white text-sky-500 uppercase text-sm text-center transition-all ease-in-out duration-300 rounded-full  inline-block px-3 py-1">
+                <p className="  bg-black group-hover:bg-[#FEE774] group-hover:text-white text-white uppercase text-sm text-center transition-all ease-in-out duration-300 rounded-full  inline-block px-3 py-1">
                   Save The Date
                 </p>
               </div>

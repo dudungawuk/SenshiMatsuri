@@ -32,13 +32,13 @@ export default function Navbar() {
       >
         <nav className="max-container flex flex-row w-full justify-between lg:justify-around items-center px-2 ">
           <Link href={"/"} className="uppercase font-bold text-xl">
-            秋田県
+          戦士の祭り
           </Link>
           <ul className="hidden lg:flex gap-5">
             {NAVBAR.map((item, index) => (
               <li
                 key={index}
-                className="text-sm text-slate-900 transition duration-200 ease-in-out  hover:text-akita dark:text-white dark:hover:text-akita"
+                className="text-sm text-slate-900 transition duration-200 ease-in-out  hover:text-black dark:text-white dark:hover:text-akita"
               >
                 <Link href={item.href} className="capitalize">
                   {item.name}

@@ -53,6 +53,27 @@ const FormSchema = z.object({
     ),
 });
 
+const TicketPopup = ({ onClose }) => {
+  return (
+    <div className=" z-[100] fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+      <div className="bg-white p-8 rounded-lg shadow-lg max-w-md">
+        <h2 className="text-2xl font-bold mb-4">Cara Pembelian Tiket</h2>
+        <p className="text-sm sm:text-lg mb-4">1. Isi data diri dengan lengkap dan pastikan email yang digunakan email aktif dan benar dalam mengisi email, email digunakan untuk menerima data tiket</p>
+        <p className="text-sm sm:text-lg mb-4">2. Nominal pembayaran disesuaikan dengan jumlah tiket yang dibeli dengan harga tiket yang tersedia. Misalnya, jika harga tiket adalah 20.000 dan jumlah tiket yang dibeli adalah 3, maka jumlah yang harus dibayarkan adalah 60.000.</p>
+        <p className="text-sm sm:text-lg mb-4">3. melakukan pembayaran ke BRI xxxxxxxx a.n Muhamad Fikri </p>
+        <p className="text-sm sm:text-lg mb-4">4. setelah pembayaran berhasil fotokan bukti pembayaran atau screenshot lalu upload di kolom proof of payment </p>
+        <p className="text-sm sm:text-lg mb-4">5. cek kembali data data yang telah diisi, submit jika semua data yang di inputkan dirasa benar </p>
+        <button
+          className="bg-blue-500  hover:bg-blue-600 text-white px-4 py-2 rounded-md"
+          onClick={onClose}
+        >
+          Tutup
+        </button>
+      </div>
+    </div>
+  );
+};
+
 export function FormTicket({ eventId }: { eventId: string }) {
   const [eventStatus, setEventStatus] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -60,6 +81,12 @@ export function FormTicket({ eventId }: { eventId: string }) {
   const ticketName = searchParams.get("ticketName");
   const [selectedImage, setSelectedImage] = useState<File | undefined>(undefined);
   const router = useRouter();
+  const [showPopup, setShowPopup] = useState(false);
+  
+    const togglePopup = () => {
+      setShowPopup(!showPopup);
+    };
+    
 
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
@@ -132,6 +159,13 @@ export function FormTicket({ eventId }: { eventId: string }) {
             <p className="text-sm font-light">
               Pastikan teman-teman mengisi data diri dengan benar dan teliti
             </p>
+            <button
+        onClick={togglePopup}
+        className="bg-blue-500 mt-3  hover:bg-blue-600 text-white px-4 py-2 rounded-md"
+      >
+        Cara Pembelian Tiket
+      </button>
+      {showPopup && <TicketPopup onClose={togglePopup} />}
           </div>
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="w-full lg:w-2/3 space-y-6">

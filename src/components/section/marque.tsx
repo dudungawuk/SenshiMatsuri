@@ -6,7 +6,7 @@ import MarqueItem from "../ui/marqueitem";
 const Marque = () => {
   return (
     <>
-      <div className={cn(`max-container bg-akita py-10`)}>
+      <div className={cn(`max-container py-10`)}>
         <Marquee autoFill pauseOnHover pauseOnClick>
           <MarqueItem />
         </Marquee>
